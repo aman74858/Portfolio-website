@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+  
+ } 
+body{background: url(Portfolio\(6\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+ .topbar{ height: 70px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background-color: transparent;
+    box-shadow: -10px 0 10px hsl(200, 98%, 54%);
+    backdrop-filter: blur(10px);
+    
+ }
+   
+ .namebox{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aqua;
+    padding-left:10px ;
+    animation: slidright 1s ease-in 0s forwards normal;
+}
+
+    .click{ position: absolute;
+        right: 80px;
+
+}
+
+
+
+.click a{ 
+         color: rgb(252, 247, 247);
+         margin-left: 20px;
+         display: inline;
+         font-family: 'Comfortaa', sans-serif;
+         text-underline-offset: 0.5px;
+         text-decoration: none;
+         font-weight:bold;
+        
+    
+
+}
+
+.click a:hover{ 
+    background-color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 0 0 20px aqua;
+    font-size: 1.04rem;
+    color: black;
+    border-radius: 40px;
+
+    
+}
+
+.sectionFirst{
+    
+    display: flex;
+    margin:22px,0;
+    padding-left: 20px;  
+    
+}
+
+.left{
+     
+     font-size: 2rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 9%; 
+    width: 35%;
+    justify-content: center;
+    
+}
+
+    .aman{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aqua;
+        animation: slidright 2s ease 0s;
+    }
+
+    .bt{ margin-top: 50px;
+        border-radius: 5%;
+        height: 40px;
+        width:100px;
+        font-weight: bold;
+        background-color: blue;
+        border-color: aqua;
+        color: white;
+
+    }
+
+.sec{
+    color: aqua;
+    margin-left: -235px;
+
+    width: min-content;
+
+    transform: rotate(-90deg);
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#butt{
+    margin-top: 400px;
+    margin-left: -175px;
+    height: 30px;
+    width: 120px; 
+    border-radius: 40px;
+    border: 1px solid aqua;
+    background-color:black;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+
+    animation: slidbottom 0.5s normal 1s ease-in forwards;
+
+}
+
+
+
+
+
+#butt:hover{
+    background-color: aqua;
+    color: black;
+    height: 31px;
+    width: 121px;
+    box-shadow: 0 0 20px aqua;
+
+}
+
+.icon {
+    width: 200px;
+    height: 40px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 340px;
+    margin-left:-46%; 
+     
+}
+
+.icon a{
+    color: aqua;
+    margin: 9px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+} 
+
+.icon a :hover{
+    font-size: 1.6rem;
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 20px aqua;
+    border: 1px solid aqua;
+    border-radius: 50%;
+
+}
+
+
+@keyframes slidright{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+
+    } 100% {
+  	    transform: translateX(60px);
+  	    opacity: 1;
+
+    }
+}
+
+
+
+@keyframes slidbottom{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+
+    } 100% {
+  	    transform: translateY(0px);
+  	    opacity: 1;
+
+    }
+}
+

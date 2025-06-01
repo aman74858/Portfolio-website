@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+  
+ } 
+body{background: url(Portfolio\(6\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+
+
+ .topbar{ height: 70px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background-color: transparent;
+    box-shadow: -10px 0 10px hsl(200, 98%, 54%);
+    backdrop-filter: blur(10px);
+    
+ }
+   
+.logo{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aqua;
+    padding-left:70px ;
+    animation: slidright 1s ease-in 0s forwards normal;
+}
+
+    .click{ position: absolute;
+        right: 80px;
+
+}
+
+
+
+.click a{ 
+         color: rgb(252, 247, 247);
+         margin-left: 20px;
+         display: inline;
+         font-family: 'Comfortaa', sans-serif;
+         text-underline-offset: 0.5px;
+         text-decoration: none;
+         font-weight:bold;
+        
+        
+
+}
+
+.click a:hover{ 
+    background-color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 0 0 20px aqua;
+    font-size: 1.04rem;
+    color: black;
+    border-radius: 40px;
+
+    
+}
+
+
+/*  skills  */
+
+.graphName{
+
+    color:white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.graph{ 
+
+height:min-content;
+width:100%;
+display: flex;
+flex-direction: row;
+padding-left: 50px;
+
+}
+
+
+.skill{
+    
+    height:300px;
+    width:400px;
+    align-items: center;
+    
+}
+
+.skill-bar {
+    color: white;
+}
+
+.skill-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    width:300px;
+    border: 1px solid aqua;
+    
+    
+}
+
+.progress {
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.html {
+    background-color: #e34c26;
+    width: 90%;
+}
+
+.css {
+    background-color: #264de4;
+    width: 85%;
+}
+
+.js {
+    background-color: #f0db4f;
+    width:30%;
+}
+
+.communication{
+    background-color: #4b8bbe;
+    width:60%;
+}
+
+.progress span {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+/* graph */
+
+
+
+
+
+
+
+

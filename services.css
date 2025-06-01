@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+  
+ } 
+body{background: url(Portfolio\(6\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+
+
+ .topbar{ height: 70px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background-color: transparent;
+    box-shadow: -10px 0 10px hsl(200, 98%, 54%);
+    backdrop-filter: blur(10px);
+    
+ }
+   
+.logo{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aqua;
+    padding-left:70px ;
+    animation: slidright 1s ease-in 0s forwards normal;
+}
+
+    .click{ position: absolute;
+        right: 80px;
+
+}
+
+
+.click a{ 
+         color: rgb(252, 247, 247);
+         margin-left: 20px;
+         display: inline;
+         font-family: 'Comfortaa', sans-serif;
+         text-underline-offset: 0.5px;
+         text-decoration: none;
+         font-weight:bold;
+          
+
+}
+
+.click a:hover{ 
+    background-color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 0 0 20px aqua;
+    font-size: 1.04rem;
+    color: black;
+    border-radius: 40px;
+
+    
+}
+
+
+.mainBox{
+    display: flex;
+    flex-direction:row;
+    
+
+
+}
+.mainBox div{
+    
+    height: 280px;
+    width: 250px;
+    margin-top:60px;
+    margin-left: 80px;
+    border: 2px solid white;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 0 30px rgb(42, 145, 241);
+    color: white;
+    padding: 20px;
+
+   
+    
+}
+
+.mainBox div a{
+    color: aqua;
+    margin: 9px;
+    font-size: 1.9rem;
+    text-decoration: none;
+}
+
